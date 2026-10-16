@@ -44,6 +44,8 @@ The expression `(1 << PIN_DIN) | (1 << PIN_BCLK) | (1 << PIN_LRC)` creates a bit
 
 This test generates rapid digital pulses; it does not implement a complete I2S audio protocol. The MAX98357A normally expects properly timed I2S data, bit clock, and word-select signals. Therefore, this test alone is not expected to produce valid audio.
 
+![MAX98357A Test](https://github.com/Sina157/eps8266-projects/blob/main/MAX98357A_Test/V27JJQ~1.JPG)
+
 GPIO0 is also a boot-configuration pin on the ESP8266, so external circuitry connected to it can affect startup if it pulls the pin to the wrong level.
 
 ## Purpose
